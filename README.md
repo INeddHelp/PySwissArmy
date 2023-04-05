@@ -216,3 +216,6 @@ file_path = 'example.csv'
 dataframe = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Age': [25, 30]})
 pyswissarmy.PandasUtils.write_csv(file_path, dataframe)
 ```
+# License
+
+PySwissArmy is licensed under the MIT License. You can find a copy of the license in the LICENSE file. By contributing to PySwissArmy, you agree to license your contributions under the terms of the MIT License.
