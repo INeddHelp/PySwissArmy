@@ -11,6 +11,3 @@ setup(
         'pandas'
     ],
 )
-
-from pyswissarmy import *
-
