@@ -16,6 +16,11 @@ pip install pyswissarmy
 
 ## Usage
 
+DISCLAIMER: for every file you create you have to import PySwissArmy using:
+```python
+from pyswissarmy import *
+```
+
 - read_file(file_path)
 
 Reads the contents of a file and returns it as a string
