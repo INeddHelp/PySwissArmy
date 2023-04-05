@@ -16,17 +16,12 @@ pip install pyswissarmy
 
 ## Usage
 
-DISCLAIMER: for every file you create you have to import PySwissArmy using:
-```python
-from pyswissarmy import *
-```
-
 - read_file(file_path)
 
 Reads the contents of a file and returns it as a string
 Here's an example usage:
 ```python
-from pyswissarmy import *
+import pyswissarmy
 contents = read_file('example.txt')
 print(contents)
 ```
@@ -36,6 +31,7 @@ print(contents)
 Writes a string to a file
 Here's an example usage:
 ```python
+import pyswissarmy
 write_file('output.txt', 'Hello World!')
 ```
 
@@ -43,7 +39,7 @@ write_file('output.txt', 'Hello World!')
 
 Parses a JSON string and returns a Python object
 Here's an example usage:
-```
+```python
 
 ```
 
@@ -51,7 +47,7 @@ Here's an example usage:
 
 Serializes a Python object to a JSON string
 Here's an example usage:
-```
+```python
 
 ```
 
