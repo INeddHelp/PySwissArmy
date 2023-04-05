@@ -20,7 +20,6 @@ pip install pyswissarmy
 
 Reads the contents of a file and returns it as a string
 Here's an example usage:
-
 ```python
 from pyswissarmy import *
 contents = read_file('example.txt')
@@ -31,7 +30,7 @@ print(contents)
 
 Writes a string to a file
 Here's an example usage:
-```
+```python
 write_file('output.txt', 'Hello World!')
 ```
 
