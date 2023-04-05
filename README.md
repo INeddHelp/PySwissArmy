@@ -14,9 +14,9 @@ You can install PySwissArmy using pip:
 pip install pyswissarmy
 ```
 
-## Usage
+# Usage
 
-- read_file(file_path)
+## read_file(file_path)
 
 Reads the contents of a file and returns it as a string
 Here's an example usage:
@@ -26,7 +26,7 @@ contents = pyswissarmy.read_file('example.txt')
 print(contents)
 ```
 
-- write_file(file_path, contents)
+## write_file(file_path, contents)
 
 Writes a string to a file
 Here's an example usage:
@@ -35,7 +35,7 @@ import pyswissarmy
 pyswissarmy.write_file('output.txt', 'Hello World!')
 ```
 
-- parse_json(json_string)
+## parse_json(json_string)
 
 Parses a JSON string and returns a Python object
 Here's an example usage:
@@ -44,7 +44,7 @@ json_string = '{"name": "John", "age": 30, "city": "New York"}'
 data = pyswissarmy.parse_json(json_string)
 ```
 
-- serialize_json(data)
+## serialize_json(data)
 
 Serializes a Python object to a JSON string
 Here's an example usage:
@@ -53,7 +53,7 @@ data = {"name": "John", "age": 30, "city": "New York"}
 json_string = pyswissarmy.serialize_json(data)
 ```
 
-- current_datetime()
+## current_datetime()
 
 Returns the current date and time as a datetime object
 Here's an example usage:
@@ -61,7 +61,7 @@ Here's an example usage:
 current_time = pyswissarmy.current_datetime()
 ```
 
-- class ConfigManager
+## class ConfigManager
 ```python
 # Create an instance of ConfigManager with a new config file
 config_manager = pyswissarmy.ConfigManager('example_config.json')
@@ -104,7 +104,7 @@ Here's an example usage:
 name = existing_config_manager.pyswissarmyget_config('name')
 ```
 
-- class MathUtils
+## class MathUtils
 - - average(numbers)
 
 Computes the average of a list of numbers
@@ -132,7 +132,7 @@ n = 5
 factorial = pyswissarmy.MathUtils.factorial(n)
 ```
 
-- class StringUtils
+## class StringUtils
 - - reverse(string)
 
 Reverses a string
@@ -160,7 +160,7 @@ string = 'password123'
 hashed_string = pyswissarmy.StringUtils.hash(string, algorithm='sha256')
 ```
 
-- class DataUtils
+## class DataUtils
 - - flatten(nested_list)
 
 Flattens a nested list into a single list
@@ -179,7 +179,7 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 transposed_matrix = pyswissarmy.DataUtils.transpose(matrix)
 ```
 
-- class CSVUtils
+## class CSVUtils
 - - read_csv(file_path)
 
 Writes data to a CSV file
@@ -199,7 +199,7 @@ data = [['Name', 'Age'], ['Alice', 25], ['Bob', 30]]
 pyswissarmy.CSVUtils.write_csv(file_path, data)
 ```
 
-- class PandasUtils
+## class PandasUtils
 - - read_csv(file_path)
 Reads data from a CSV file and returns it as a Pandas DataFrame
 Here's an example usage:
