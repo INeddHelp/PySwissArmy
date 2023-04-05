@@ -2,6 +2,7 @@ setup.py
 PySwissArmy.egg-info/PKG-INFO
 PySwissArmy.egg-info/SOURCES.txt
 PySwissArmy.egg-info/dependency_links.txt
+PySwissArmy.egg-info/requires.txt
 PySwissArmy.egg-info/top_level.txt
 pyswissarmy/PySwissArmy.py
 pyswissarmy/__init__.py
